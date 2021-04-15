@@ -167,7 +167,7 @@ body {
     text-decoration: none;
     margin: 1.5rem 0 3rem;
     &::before {
-      content: url("/dist/images/icon-arrow.svg");
+      content: url("../images/icon-arrow.svg");
       height: 16px;
       position: absolute;
       right: -20px;
@@ -209,7 +209,7 @@ body {
   }
 
   &::before {
-    content: url("/dist/images/icon-quotes.svg");
+    content: url("../images/icon-quotes.svg");
     position: absolute;
     top: 1.5rem;
     left: 1.5rem;
