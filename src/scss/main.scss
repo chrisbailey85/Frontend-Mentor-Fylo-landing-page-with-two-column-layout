@@ -321,7 +321,11 @@ body {
   &--icon {
     border: 1px solid colors.$light-grayish-blue;
     border-radius: 50%;
-    padding: 0.5rem;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 /* 
