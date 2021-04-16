@@ -20,6 +20,7 @@ body {
 .logo {
   height: 24.5px;
   width: 86px;
+  margin-right: 1.5rem;
 }
 
 .nav {
@@ -41,7 +42,8 @@ body {
 
 .heading,
 .btn,
-.nav__link {
+.nav__link,
+.footer__link {
   font-family: "Raleway", sans-serif;
 }
 
@@ -160,6 +162,8 @@ body {
 @media (min-width: 1440px) {
   .productive::before {
     width: 1440px;
+    height: 114px;
+    top: -113px;
   }
 }
 .productive--heading {
@@ -293,6 +297,7 @@ body {
   display: flex;
   align-items: center;
   margin-bottom: 0.7rem;
+  font-family: "Open Sans", sans-serif;
 }
 .contact__img {
   margin-right: 1rem;
@@ -394,6 +399,7 @@ body {
     justify-content: space-between;
     align-items: center;
     margin-top: 10vh;
+    margin-bottom: 30vh;
   }
   .banner__content {
     text-align: left;
